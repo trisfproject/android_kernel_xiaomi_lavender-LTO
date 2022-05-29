@@ -6,7 +6,7 @@ name : OldCam
 version: Nexus-OLD
 steps:
  - name: Nexus
-   image: atomxorg/ubuntu:latest
+   image: nexgang/ubuntu:latest
    environment:
      token:
        from_secret: token
@@ -23,7 +23,7 @@ name : NewCam
 version: Nexus-NEW
 steps:
  - name: Nexus
-   image: atomxorg/ubuntu:latest
+   image: nexgang/ubuntu:latest
    environment:
      token:
        from_secret: token
@@ -40,7 +40,7 @@ name : Qti-Old
 version: Nexus-QTI-OLD
 steps:
  - name: Nexus
-   image: atomxorg/ubuntu:latest
+   image: nexgang/ubuntu:latest
    environment:
      token:
        from_secret: token
